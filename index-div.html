@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src='script-div.js' type='text/javascript'></script>
+</head>
+<body>
+<div class="hidden" id="work">
+    <div id="control">
+        <button class="" id="button-start" onclick="start()">Start</button>
+        <button class="hidden" id="button-stop" onclick="stop()">Stop</button>
+        <button class="hidden" id="button-reload" onclick="reload()">Reload</button>
+        <span id="notification-text"></span>
+        <button class="close-button" id="button-close" onclick="closeWork()">Close</button>
+    </div>
+    <div id="anim">
+        <div id="anim-content"></div>
+    </div>
+</div>
+
+<div class="full-screan-wrapper">
+    <div class="header">
+        <div class="wrap-header-content">
+            <div class="section-x">x</div>
+            <div class="section-1">1</div>
+        </div>
+
+    </div>
+    <div class="wrap-content-flex">
+        <div class="section-left-side">
+            <div class="section-2">
+                2
+            </div>
+        </div>
+
+
+        <div class="center-wrap">
+            <div class="section-row-top">
+                <div class="section-column-left">
+                    <div class="section-3">
+                        <div style="width: 100%;">
+                            <button id="button-play" onclick="play()">Play</button>
+
+                            <div id="event-log" style="width: 100%;">
+                                <textarea class="hidden" id="event-log-teaxtaera" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="section-column-right">
+                    <div class="section-4">
+                        4
+                    </div>
+                    <div class="section-5">
+                        5
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section-row-bottom">
+                <div class="wrap-bottom-content ">
+                    <div class="section-y">y</div>
+                    <div class="section-6">6</div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>

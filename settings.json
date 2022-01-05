@@ -1,0 +1,14 @@
+{
+  "button_start_name": "Start from Server",
+  "texture": "noisy-texture.png",
+  "button_close_name": "Close",
+  "button_play_name": "Play",
+  "button_stop_name": "Stop",
+  "button_reload_name": "Reload",
+  "CIRCLE_COLOR_RED": "#FF3E37",
+  "CIRCLE_COLOR_GREEN": "#57E69D",
+  "FRAME_INTERVAL": 30,
+  "CIRCLE_RADIUS": 10,
+  "AXIS_MAX_Y": 300,
+  "AXIS_MAX_X": 300
+}
