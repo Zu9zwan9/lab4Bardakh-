@@ -193,8 +193,8 @@ function start() {
     drawUpdateInterval = window.setInterval(function () {
         // draw frame update
 
-        circleGreen.moveY(51); // 11 - швидкість переміщення 
-        circleRed.moveX(100); // 10 - швидкість переміщення
+        circleGreen.moveY(51); // 51 - швидкість переміщення 
+        circleRed.moveX(100); // 100 - швидкість переміщення
 
         // отримуємо відстань між двома колами
         var dtX = circleGreen.getPositionX() - circleRed.getPositionX();
